@@ -6,6 +6,9 @@ module VimHelper
   def vim_select(options)
     formatted_options = options.map.with_index { |opt, i| "'#{i + 1}. #{opt}'"}.join(', ')
     selection = Vim.evaluate("inputlist(['Select:', #{formatted_options}])")
+
+    puts "options: #{options}"
+    puts "selection: #{selection}"
     options[selection - 1]
   end
 

@@ -2,7 +2,7 @@
 " Add our plugin to the path
 " --------------------------------
 ruby $LOAD_PATH.unshift File.join(File.dirname(Vim.evaluate('expand("<sfile>")')), '.')
-ruby require 'extract_class'
+ruby require 'react_refactor'
 
 " --------------------------------
 "  Function(s)
@@ -11,11 +11,11 @@ function! VisualSelection()
   let g:visualmodetype = visualmode()
 
   if g:visualmodetype ==# 'v'
-    execute "normal! `<v`>y"
+    execute 'normal! `<v`>y'
   elseif g:visualmodetype ==# 'char'
-    execute "normal! `[v`]y"
+    execute 'normal! `[v`]y'
   else
-    execute "normal! `<v`>y"
+    execute 'normal! `<v`>y'
   endif
 
   return @@

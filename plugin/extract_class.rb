@@ -1,4 +1,4 @@
-require 'react_refactor'
+require_relative './react_refactor'
 
 class ExtractClass < ReactRefactor
   register self, 'Extract Class'
