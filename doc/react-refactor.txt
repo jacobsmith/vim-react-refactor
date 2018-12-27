@@ -1,0 +1,27 @@
+*react-refactor.txt* A short multi line description of your plugin
+
+===============================================================================
+CONTENTS                                                       *react-refactor*
+
+    1. Intro ........................................... |react-refactor-intro|
+    2. Requirements ............................. |react-refactor-requirements|
+    3. Usage ........................................... |react-refactor-usage|
+    4. Licence ....................................... |react-refactor-licence|
+===============================================================================
+1. Intro                                                 *react-refactor-intro*
+
+Overview of plugin
+
+2. Requirements                                   *react-refactor-requirements*
+
+What additional programs are required to run the plugin
+
+3. Usage                                                 *react-refactor-usage*
+
+How to use the plugin. What functions does it give the user?
+
+4. Licence                                             *react-refactor-licence*
+
+This is open source make sure to include a licence
+
+vim:ft=help
